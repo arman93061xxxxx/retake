@@ -19,10 +19,6 @@ res.status(200).json({message: "login successfully"});
 
 })
 
-app.get('/',(req,res)=>{
-
-console.log("check render");
-})
 
 app.listen(3000,()=>{
   console.log("server is running successfully on port 3000");
